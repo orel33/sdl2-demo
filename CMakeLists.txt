@@ -21,3 +21,7 @@ target_link_libraries(model ${SDL2_ALL_LIBS} m)
 add_executable(minimal minimal.c model.c)
 target_link_libraries(minimal ${SDL2_ALL_LIBS} m)
 
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/mario.png DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/bomb.png DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/background.png DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/Arial.ttf DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
