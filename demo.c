@@ -12,7 +12,7 @@
 
 /* **************************************************************** */
 
-#define FONT "Arial.ttf"
+#define FONT "arial.ttf"
 #define FONTSIZE 36
 #define BACKGROUND "background.png"
 #define MARIO "mario.png"
