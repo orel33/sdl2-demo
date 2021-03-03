@@ -15,7 +15,7 @@ $ sudo apt-get install libsdl2-dev libsdl2-image-dev  libsdl2-ttf-dev
 With CMake:
 
 ```
-$ mkdir build ; cd build ; cmake .. ; make
+$ mkdir build ; cd build ; cmake .. ; make VERBOSE=ON
 ```
 
 Or without, if you prefer:
