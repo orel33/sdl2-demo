@@ -7,7 +7,8 @@ with Android plaforms!
 ## Dependencies
 
 ```bash
-sudo apt-get install libsdl2-dev libsdl2-image-dev  libsdl2-ttf-dev
+apt install libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev # for Linux Debian/Ubuntu
+brew install sdl2 sdl2_image sdl2_ttf                     # for MacOS
 ```
 
 ## Compilation
