@@ -12,11 +12,11 @@
 
 /* **************************************************************** */
 
-#define FONT "arial.ttf"
+#define FONT "res/arial.ttf"
 #define FONTSIZE 36
-#define BACKGROUND "background.png"
-#define MARIO "mario.png"
-#define BOMB "bomb.png"
+#define BACKGROUND "res/background.png"
+#define MARIO "res/mario.png"
+#define BOMB "res/bomb.png"
 
 /* **************************************************************** */
 

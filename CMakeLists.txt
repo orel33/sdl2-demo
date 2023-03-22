@@ -18,7 +18,5 @@ target_link_libraries(demo ${SDL2_ALL_LIBS} m)
 add_executable(model main.c model.c)
 target_link_libraries(model ${SDL2_ALL_LIBS} m)
 
-## copy useful data files in build dir
-foreach(file "background.png" "bomb.png" "mario.png" "arial.ttf")
-  file(COPY ${file} DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
-endforeach(file)
+## copy useful ressources in the build directory
+file(COPY res DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
