@@ -5,7 +5,7 @@ project ("demo_sdl2" LANGUAGES C)
 set(CMAKE_C_FLAGS "-std=c99 -g -Wall")
 
 ## find SDL2
-include(SDL2.cmake)
+include(sdl2.cmake)
 message(STATUS "SDL2 include dir: ${SDL2_ALL_INC}")
 message(STATUS "SDL2 all libraries: ${SDL2_ALL_LIBS}")
 
