@@ -13,7 +13,7 @@ int main(int argc, char* argv[]) {
   /* initialize SDL2 and some extensions */
   if (SDL_Init(SDL_INIT_VIDEO) != 0)
     ERROR("Error: SDL_Init VIDEO (%s)", SDL_GetError());
-  if (IMG_Init(IMG_INIT_PNG & IMG_INIT_PNG) != IMG_INIT_PNG)
+  if ((IMG_Init(IMG_INIT_PNG) & IMG_INIT_PNG) != IMG_INIT_PNG)
     ERROR("Error: IMG_Init PNG (%s)", SDL_GetError());
   if (TTF_Init() != 0) ERROR("Error: TTF_Init (%s)", SDL_GetError());
 
